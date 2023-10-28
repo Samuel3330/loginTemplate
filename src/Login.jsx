@@ -49,25 +49,25 @@ const Login = () => {
           }`}
         />
       </div>
-      <div className="absolute flex flex-col max-md:backdrop-blur-sm justify-around items-center w-full md:w-[500px] h-[100vh] md:bg-black top-0">
-        <div className=" flex gap-2 justify-start items-center w-full p-10">
+      <div className="absolute flex flex-col max-md:backdrop-blur-sm justify-around items-center w-full md:w-[400px] h-[100vh] md:bg-black top-0">
+        <div className=" flex gap-2 justify-start items-center w-full px-10">
           <img
             src="house.png"
             alt=""
             className="w-10 bg-gray-200 rounded-full p-1"
           />
-          <h1 className="text-white font-bold font-body text-2xl">LogHouse</h1>
+          <h1 className="text-white font-bold font-body text-lg">LogHouse</h1>
         </div>
-        <div className="w-full flex flex-col justify-center items-start p-10">
-          <h1 className="text-white text-4xl mb-20 font-body font-medium">
+        <div className="w-full flex flex-col justify-center items-start px-10 py-2">
+          <h1 className="text-white text-3xl mb-10 font-body font-medium">
             Sign in
           </h1>
           <form
             action="#"
-            className="flex justify-center gap-5 w-full items-start flex-col"
+            className="flex gap-4 justify-center w-full items-start flex-col"
           >
             <div className="w-full">
-              <label htmlFor="" className="text-white font-body text-lg">
+              <label htmlFor="" className="text-white font-body text-md">
                 User Name
               </label>
               <div
@@ -96,7 +96,7 @@ const Login = () => {
               </div>
             </div>
             <div className="w-full">
-              <label htmlFor="" className="text-white text-lg">
+              <label htmlFor="" className="text-white text-md">
                 Password
               </label>
               <div
@@ -126,18 +126,18 @@ const Login = () => {
               <div className="w-full mt-5">
                 <a
                   href="#"
-                  className="underline text-sm font-body hover:text-white font-semibold text-gray-700"
+                  className="underline text-[12px] font-body hover:text-white font-semibold text-gray-700"
                 >
                   FORGOT PASSWORD?
                 </a>
               </div>
             </div>
-            <button className="text-white w-[90%] py-4 font-body rounded-md p-8 bg-[#426FFC]">
+            <button className="text-white w-[90%] py-3 font-body rounded-md p-8 bg-[#426FFC] hover:bg-[#284497]">
               SIGN IN
             </button>
           </form>
         </div>
-        <div className="w-full p-10">
+        <div className="w-full px-10">
           <h2 className="text-white font-body">
             Dont have an account?{" "}
             <a href="#" className="font-semibold">

@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('./public/edificios.jpg')",
-        hero2: "url('./public/edificios2.jpg')",
+        hero: "url('../edificios.jpg')",
+        hero2: "url('../edificios2.jpg')",
       },
       fontFamily: {
         body: "Poppins, sans-serif",
